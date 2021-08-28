@@ -1,0 +1,48 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "GMD documentation",
+        "version": "0.0.1"
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Authorization page"
+                    }
+                }
+            }
+        },
+        "/reg": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Registration page"
+                    }
+                }
+            }
+        },
+        "/logout": {
+            "get": {
+                "responses": {
+                    "301": {
+                        "description": "Logout page"
+                    }
+                }
+            }
+        },
+        "/private": {
+            "get": {
+                "responses": {
+                    "301": {
+                        "description": "Main panel"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
